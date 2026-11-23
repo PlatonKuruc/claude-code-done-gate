@@ -1,0 +1,20 @@
+{
+  "name": "claude-code-done-gate",
+  "displayName": "Done gate for Claude Code",
+  "version": "0.1.0",
+  "description": "Stops Claude Code from saying \"fixed\", \"works now\" or \"done\" when it never ran anything after its last edit.",
+  "author": {
+    "name": "Wizalnut (Epic production s.r.o.)",
+    "url": "https://wizalnut.com"
+  },
+  "homepage": "https://wizalnut.com/en/packs",
+  "repository": "https://github.com/PlatonKuruc/claude-code-done-gate",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-hooks",
+    "ai-agents",
+    "quality-gates",
+    "verification"
+  ]
+}

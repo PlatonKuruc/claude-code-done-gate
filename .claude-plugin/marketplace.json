@@ -1,0 +1,15 @@
+{
+  "name": "claude-code-done-gate",
+  "description": "Done gate for Claude Code",
+  "owner": {
+    "name": "Wizalnut (Epic production s.r.o.)",
+    "url": "https://wizalnut.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-done-gate",
+      "source": "./",
+      "description": "Stops Claude Code from saying \"fixed\", \"works now\" or \"done\" when it never ran anything after its last edit."
+    }
+  ]
+}

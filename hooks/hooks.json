@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/stop_no_fabricated_evidence.sh\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/posttooluse_evidence_flags.sh\""
+          }
+        ],
+        "matcher": "Bash|Edit|Write|MultiEdit|NotebookEdit|Skill"
+      }
+    ]
+  }
+}
